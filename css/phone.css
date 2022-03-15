@@ -1,9 +1,16 @@
 /*navigation*/
-@media only screen and (max-width:1170px){
-#navbar{
+@media only screen and (max-width:950px){
+ #navbar{
     flex-direction: column;
+} 
+#logo img{
+    height: 70px; 
+   width: 100px;
+   margin: 3px 5px;
 }
-
+#contact-box form{
+    width: 80%;
+}
 #navbar ul li a{
     font-size: 1rem;
     padding: 0px 7px;
@@ -25,6 +32,8 @@
 /*service section*/
 #services{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* #services .box{
     
@@ -39,12 +48,62 @@
 
 
 /*footer*/
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px){
     #home::before{
         height:675px;
+    }
+}
+@media only screen and (max-width:800px) {
+    
+
+    #clients{
+        flex-wrap: wrap;
+    }
+    #client-section{
+        height: 720px;
+    }
+    #client-section::before{
+        height: 722px;
     }
 }
 /* utility classes */
 .h-primary{
     font-size: 1.6rem;
+}
+
+@media only screen and (max-width:1170px){
+    .container{
+        height:300px;
+    }
+}
+@media only screen and (max-width:1000px){
+    .container{
+        height:250px;
+    }
+}
+@media only screen and (max-width:774px){
+    .container{
+        height:200px;
+    }
+}
+@media only screen and (max-width:450px){
+    .container{
+        height:160px;
+    }
+}
+@media only screen and (max-width:330px){
+    .container{
+        height:130px;
+    }
+}
+@media only screen and (max-width:410px){
+    #clients .client-item img{
+        height: 187px;
+        width: 91px;
+    }
+}
+@media only screen and (max-width:380px){
+    #navbar ul li{
+        font-size: 1px;
+    }
 }
